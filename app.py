@@ -12,9 +12,5 @@ def hello():
 @app.route ('/About/')
 
 def about ():
-    return' <h3> We at Devhoz technologies have around two years of IT experience</h3>'
+    return' <h3> This is simple flask application made using python deployed on Elastic Bean Stalk (EBS).</h3>'
 
-@app.route ('/Contact/')
-
-def contact ():
-    return '<h4> To contact us, please sue the below form. Click on contact us </h4>'
